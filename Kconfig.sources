@@ -1,0 +1,12 @@
+# this has the configuration for the backport code
+source "$BACKPORT_DIR/compat/Kconfig"
+
+# these are copied from the kernel
+source "$BACKPORT_DIR/drivers/gpu/drm/i915/Kconfig"
+
+# PMT
+source "$BACKPORT_DIR/drivers/platform/x86/intel/Kconfig"
+
+# MEI
+source "$BACKPORT_DIR/drivers/misc/mei/Kconfig"
+source "$BACKPORT_DIR/drivers/watchdog/Kconfig"
